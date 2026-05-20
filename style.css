@@ -3,10 +3,11 @@
     box-sizing: border-box;
 
 }
-.top-bar{
-    height: 60;
+
+ .top-bar{
+    height: 60px;
     background-color: green;
-    color: aliceblue;
+    color: rgb(235, 239, 243);
     display: flex;
     justify-content: space-between;
     align-items: center;
