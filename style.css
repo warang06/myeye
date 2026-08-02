@@ -36,7 +36,7 @@ body::after{
 
 .top-bar {
     height: 60px;
-    background-color: rgb(2, 56, 2);
+    background-color: #0097b2;
     color: rgb(235, 239, 243);
     display: flex;
     justify-content: space-between;
@@ -52,9 +52,9 @@ nav{
     position: fixed;
     top: 0;
     backdrop-filter: blur(15px);
-    background: rgba(0,0,0,.2);
+    background: #00000033;
     z-index: 999;
-    border-bottom: 1px solid rgba(225,225, 225,.05)
+    border-bottom: 1px solid #e1e1e10d
 }
 .logo{
     font-size: 28px;
@@ -71,7 +71,7 @@ nav{
 }
 
 .menu a{
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     transition:.2s;
 }
@@ -85,16 +85,16 @@ section{
     padding: 120px 8%;
 }
 
-/* .me-text h4{
+.me-text h4{
     margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-} */
+}
 .me-text h1{
   margin-top: 60px;
-  color: rgb(51, 195, 130);
+  color: #33c382;
   /* -webkit-text-stroke: 2px #ffffff; */
 }
 .me-text{
@@ -122,16 +122,18 @@ section{
 .me-img{
   flex:1;
   display:flex;
-  justify-content:right;
+  justify-content:center;
+  align-items: center;
   position:relative;
+  
 }
 
-.me-img img{
-  width: 300px;
+/* .me-img img{
+  width: 500px;
   border-radius:999px;
   z-index:10;
   box-shadow:0 0 50px #09f3ad40;
-}
+} */
 
 /* .circle{
   position:absolute;
@@ -160,11 +162,20 @@ section{
 .about-card{
   background:#101525;
   border:1px solid rgba(255,255,255,.05);
-  padding:40px;
-  border-radius:25px;
+  padding: 40px;
+  border-radius:16px;
   line-height:1.9;
   color:#d6d6d6;
 }
+ 
+.button-group{
+  display: flex;
+  gap: 80px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+
+}
+
 
 .educations-card{
   margin-top:60px;
@@ -278,6 +289,29 @@ section{
   margin-top:15px;
   line-height:1.8;
 }
+.button-rasume {
+  display: inline-flex;
+  color: rgb(255, 255, 255);
+  margin-top: 16px;
+  padding:12px 24px;
+  background:#1a5166;
+  text-decoration:none;
+  border-radius:8px;
+  transition:.2s;
+  border:1px solid transparent;
+}
+
+/* .button-gg {
+  display: inline-flex;
+  color: rgb(255, 255, 255);
+  margin-top: 16px;
+  padding:12px 24px;
+  background:#0b7474;
+  text-decoration:none;
+  border-radius:8px;
+  transition:.2s;
+  border:1px solid transparent;
+} */
 
 .line a{
   display: inline-flex;
